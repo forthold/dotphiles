@@ -49,7 +49,7 @@ zstyle ':dotzsh:module:terminal' auto-title 'yes'
 
 ### Editor module
 # Set the key mapping style to 'emacs' or 'vi'.
-zstyle ':dotzsh:module:editor' keymap 'emacs'
+# zstyle ':dotzsh:module:editor' keymap 'emacs'
 # Set EDITOR to 'emacs' or 'vi'.
 zstyle ':dotzsh:module:editor' editor 'vi'
 # Auto convert .... to ../..
@@ -90,8 +90,8 @@ zstyle ':dotzsh:module:ssh:agent' forwarding 'yes'
 # Auto start a session when Zsh is launched.
 # Setting it to 'local' only starts a session for local terminals.
 # Setting it to 'remote' only starts a session for SSH connections.
-##zstyle ':dotzsh:module:tmux' auto-start 'no'
-#zstyle ':dotzsh:module:tmux:aliases' tmuxinator 'yes'
+zstyle ':dotzsh:module:tmux' auto-start 'yes'
+zstyle ':dotzsh:module:tmux:aliases' tmuxinator 'yes'
 
 ### Syntax Highlighting module
 #zstyle ':dotzsh:module:syntax-highlighting' highlighters 'main' 'brackets' 'pattern' \
