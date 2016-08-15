@@ -27,7 +27,15 @@ zstyle ':dotzsh:load' dzmodule \
   'history' \
   'utility' \
   'completion' \
-  'theme'
+  'theme' \
+  'python' \
+  'rsync' \
+  'ssh' \
+  'syntax-highlighting' \
+  'command-not-found' \
+  'fasd' \
+  'fasd' \
+  'tmux'
 
 ### Global settings
 # Color output (auto set to 'no' on dumb terminals).
@@ -91,6 +99,7 @@ zstyle ':dotzsh:module:ssh:agent' forwarding 'yes'
 # Setting it to 'local' only starts a session for local terminals.
 # Setting it to 'remote' only starts a session for SSH connections.
 zstyle ':dotzsh:module:tmux' auto-start 'yes'
+# zstyle ':dotzsh:module:tmux' auto-start 'remote'
 zstyle ':dotzsh:module:tmux:aliases' tmuxinator 'yes'
 
 ### Syntax Highlighting module

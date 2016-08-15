@@ -3,7 +3,7 @@
 #
 # Ignore these files globally in this repo.
 #
-
+git/*
 *.swp
 .DS_Store
 *~
@@ -38,4 +38,4 @@ mutt/mailboxes.*
 mutt/smime/*
 mutt/certificates
 task/task/*.data
-
+git/gitconfig

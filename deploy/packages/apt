@@ -11,5 +11,7 @@ zsh
 git
 vim
 tmux
+tmuxinator
+ack-grep
 nmap
 
