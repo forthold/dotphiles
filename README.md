@@ -213,3 +213,12 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [6]: https://github.com/Lokaltog/powerline-fonts
 [7]: https://github.com/dotphiles/dotphiles/graphs/contributors
 
+Additional vim actions
+
+cp .dotfiles/vim/dotvim/bundle/base16-vim/colors/* .dotfiles/vim/dotvim/bundle/vim/colors
+
+cp .dotfiles/vim/dotvim/bundle/vim/colors/* .vim/colors/
+
+Edit ˙vim .vim/plugin/settings/colors.vim
+change base**-default to base**-default-dark
+
